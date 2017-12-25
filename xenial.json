@@ -1,0 +1,11 @@
+{
+  "variables": {
+  },
+  "builders": [{
+    "type": "vmware-vmx",
+    "source_path": "/path/to/.vagrant/machines/default/vmware_fusion/blah/xenial.vmx",
+    "ssh_username": "vagrant",
+    "ssh_private_key_file": "/path/to/.vagrant/machines/default/vmware_fusion/private_key",
+    "shutdown_command": "sudo poweroff"
+  }]
+}
